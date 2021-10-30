@@ -1,0 +1,11 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+html{
+    --mw:1920px;
+}
+.wrapper{
+max-width: var(--mw);
+}
