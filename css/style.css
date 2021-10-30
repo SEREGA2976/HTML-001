@@ -5,6 +5,10 @@
 }
 html{
     --mw:1920px;
+    --colorSite: #020A18;
+}
+body{
+    background-color: var(--colorSite);
 }
 .wrapper{
 max-width: var(--mw);
